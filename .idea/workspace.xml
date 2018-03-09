@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bb9b6b-e247-43e9-8913-4c0bfbbaec79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sameName.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sameName2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sameName3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/zeroDivide.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +24,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sameName3.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sameName3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sameName3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zeroDivide.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zeroDivide.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -64,6 +72,7 @@
         <option value="$PROJECT_DIR$/sameName.py" />
         <option value="$PROJECT_DIR$/sameName2.py" />
         <option value="$PROJECT_DIR$/sameName3.py" />
+        <option value="$PROJECT_DIR$/zeroDivide.py" />
       </list>
     </option>
   </component>
@@ -130,25 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sameName3">
-    <configuration name="magic8Ball" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="atbswp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/magic8Ball.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.zeroDivide">
     <configuration name="sameName" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,20 +212,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="zeroDivide" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="atbswp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zeroDivide.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.magic8Ball" />
-      <item index="1" class="java.lang.String" itemvalue="Python.scratch" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sameName" />
-      <item index="3" class="java.lang.String" itemvalue="Python.sameName2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.sameName3" />
+      <item index="0" class="java.lang.String" itemvalue="Python.scratch" />
+      <item index="1" class="java.lang.String" itemvalue="Python.sameName" />
+      <item index="2" class="java.lang.String" itemvalue="Python.sameName2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.sameName3" />
+      <item index="4" class="java.lang.String" itemvalue="Python.zeroDivide" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.sameName3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.sameName2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sameName" />
-        <item index="3" class="java.lang.String" itemvalue="Python.scratch" />
-        <item index="4" class="java.lang.String" itemvalue="Python.magic8Ball" />
+        <item index="0" class="java.lang.String" itemvalue="Python.zeroDivide" />
+        <item index="1" class="java.lang.String" itemvalue="Python.sameName3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.sameName2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.sameName" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scratch" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520528424689</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="github push test">
+      <created>1520627077027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1520627077027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -289,7 +305,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18438178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5062598" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.319337" sideWeight="0.49374023" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.319337" sideWeight="0.49374023" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28950277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -636,8 +652,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sameName3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zeroDivide.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
