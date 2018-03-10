@@ -20,7 +20,7 @@ def getAnswer(answerNumber):
         return 'Very doubtful'
 
 # This can be shortened to print(getAnswer(random.randint(1, 9)))
-
-r = random.randint(1, 9)
-fortune = getAnswer(r)
-print(fortune)
+print(getAnswer(random.randint(1, 9)))
+#r = random.randint(1, 9)
+#fortune = getAnswer(r)
+#print(fortune)
