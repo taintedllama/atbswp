@@ -16,4 +16,5 @@ def commaCode(someList):
             list = list + 'and ' + i        # once the if statement reaches -1 list is set to add and before last i
     print(list)                             # print list that will now include 'and' before the last item in the list
 
+
 commaCode(spam)                             # runs commaCode function using the spam list
