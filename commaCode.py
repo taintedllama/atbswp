@@ -9,11 +9,11 @@ spam = ['apples', 'bananas', 'tofu', 'cats', 'birds']
 def commaCode(someList):
     list = ''                               # creates a black list to build on
     for i in spam:                          # starts the variable i to loop through spam list
-        maxLen = len(spam)                  #
-        if spam.index(i) != (maxLen -1):
-            list = list + i + ', '
+        maxLen = len(spam)                  # creates variable to set length of spam
+        if spam.index(i) != (maxLen -1):    # i increments by 1 per loop, this checks to see if i is set to less than -1
+            list = list + i + ', '          # modifies list to include i as it increments through each loop
         else:
-            list = list + 'and ' + i
-    print(list)
+            list = list + 'and ' + i        # once the if statement reaches -1 list is set to add and before last i
+    print(list)                             # print list that will now include 'and' before the last item in the list
 
-commaCode(spam)
+commaCode(spam)                             # runs commaCode function using the spam list
