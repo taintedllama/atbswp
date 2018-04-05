@@ -5,8 +5,19 @@ def printBoard(board):
     print('-+-+-')
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 
-theBoard = {'top-L': '0', 'top-M': '0', 'top-R': '0',
-            'mid-L': 'X', 'mid-M': 'X', 'mid-R': ' ',
-            'low-L': ' ', 'low-M': ' ', 'low-R': 'X'}
+theBoard = {'top-L': ' ', 'top-M': ' ', 'top-R': ' ',
+            'mid-L': ' ', 'mid-M': ' ', 'mid-R': ' ',
+            'low-L': ' ', 'low-M': ' ', 'low-R': ' '}
+
+turn = 'X'
+for i in range(9):
+    printBoard(theBoard)
+    print('Turn for ' + turn + '. Move on which space?')
+    move = input()
+    theBoard[move] = turn
+    if turn == 'X':
+        turn = 'O'
+    else:
+        turn = 'X'
 
 printBoard(theBoard)
