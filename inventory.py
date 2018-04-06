@@ -1,6 +1,5 @@
-stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
-inv = {'gold': 42, 'rope': 1}
-dragonLoot ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+inv = {'gold coin': 42, 'rope': 1}
+dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 
 def displayInventory(inventory):
     print('Inventory:')
@@ -11,6 +10,12 @@ def displayInventory(inventory):
     print('Total number of items: {}'.format(itemTotal))
 
 def addToInventory(inventory, addedItems):
+    for k in range(len(addedItems)):
+        if addedItems[k] in inventory.keys():
+            inventory[addedItems[k]] += 1
+        else:
+            inventory.setdefault(addedItems[k], 1)
+    return inventory
 
-
-displayInventory(stuff)
+inv = addToInventory(inv, dragonLoot)
+displayInventory(inv)
